@@ -185,3 +185,61 @@ html, body {
     width: 1000px;
 }
 
+/**---------------------------------------------------texto***/
+
+.footer-title  {
+    color: red;
+}
+
+.footer-p {
+    text-align: center;
+    color: wheat;
+}
+/**---------------------------------------------------texto***/
+.main-footer {
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    background-image: url(Imagens/footerback.jpg);
+    background-size: cover;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.container-footer {
+    display: inline;
+    border-bottom: none;
+}
+
+.navil {
+    padding-left: 0;
+    margin: 0;
+    padding-right: 30px;
+}
+
+.footer-nav li { 
+    display: inline;
+    padding:0;
+    padding-left: 20px;
+}
+
+.footer-bonfire {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.footer-solaire {
+    height: 90px;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+}
+
+
+.facebook  {
+    display: flex;
+    float: right;
+    padding-top: 10px;
+}
+
