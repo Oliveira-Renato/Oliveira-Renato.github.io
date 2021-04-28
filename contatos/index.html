@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--VScode faz praticamento tudo slc-->
+<!--Por enquanto estou só estudando e aprendendo mais sobre HTML-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Soul | Contatos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">    
+        <nav class="nav main-nav">    
+            <ul>
+                <li ><a href="../home/index.html">Home</a></li>
+                <li ><a href="index.html">Contatos</a></li>
+            </ul>
+        </nav>
+        <h1 class="title-name title-name-center">Dark Souls</h1>
+    </header>
+        <!--asking details from the users-->
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name: 
+                <input type="text" name="name" size="30" maxlength="100"><br>
+            </label>
+            <label for="email">Email:  
+                <input type="email" name="email" size="30" maxlength="100">
+            </label>
+        </fieldset>
+        <br>
+        <!--asking users for their review-->
+        <fieldset>
+            <legend>Your Review:</legend>
+            <p>
+            <label for="hear-about"> How did you hear about us? </label>
+             <select name="referrer" id="hear-about"> 
+                 <option value="google">Google</option>
+                 <option value="friend">Friend</option>
+                 <option value="advert">Advert</option>
+                 <option value="others">Others</option>
+             </select>
+             </p>
+             <!--Asking the user if he(a) would visit us agair-->
+             <p>Would you visit again?<br>
+             <label >
+                <input type="radio" name="choise" value="y" id="yes">Yes
+             </label> 
+             <label>
+                <input type="radio" name="choise" value="n" id="no">No
+             </label>
+             <label>
+                <input type="radio" name="choise" value="m" id="maybe">Maybe
+             </label>
+             </p>
+             <!--coments from user-->
+             <label for="comment">Comment:<br>
+                <textarea name="comments"  cols="40" rows="4" placeholder="Enter your comments..."></textarea><br>
+             </label>
+             <label >
+                <input type="checkbox" name="subscriber" value="option" checked>Sign me up for emails update
+             </label><br>
+             <input type="submit" value="Submit review" >
+
+        </fieldset>
+
+    
+    
+</body>
+</html>

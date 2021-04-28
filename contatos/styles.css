@@ -1,0 +1,67 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    font-weight: none;
+    text-decoration: none;
+    border-bottom: 5px;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav a:hover {
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 5px;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url(../Imagens/dkback.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    
+}
+
+.title-name {
+    text-align: center;
+    margin: 0;
+    font-family: 'Lucida Sans';
+    color: white;
+    font-size: 7em;
+    font-weight: normal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title-name-center {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
