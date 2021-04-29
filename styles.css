@@ -107,7 +107,7 @@ html, body {
 }
 
 .fast a:hover {
-    color: rgb(247, 146, 15);
+    color:red;
 }
 
 .fast-travel {
