@@ -243,3 +243,32 @@ html, body {
     padding-top: 10px;
 }
 
+/****-------------------forms------------------****/
+
+.menu-souls {
+    border-style: double;
+    display: block;
+    text-align: center;
+    width: 800px;
+    border-color: rgb(77, 54, 6);
+}
+
+
+.main-field {
+    width: ;
+    border-color: rgb(77, 54, 6);
+    margin: 0;
+    padding: 1.2em;
+    
+}
+.main-details {
+    color: rgb(245, 242, 237);
+}
+
+.field-name {
+    color: wheat;
+    padding: .5em;
+}
+
+
+}
