@@ -261,6 +261,7 @@ html, body {
 .container-souls {
     font-size: 1.2em;
     text-align: center;
+    padding-bottom: 30px;
      
 }
 
@@ -316,4 +317,14 @@ html, body {
 .boco:hover {
     background-color: #333;
     color: white;
+}
+
+.section-image-souls {
+    border-radius: 50%;
+    width: 200px;
+    
+}
+
+.pocha { 
+    padding-right: 30px;
 }
