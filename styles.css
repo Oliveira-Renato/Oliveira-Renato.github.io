@@ -2,14 +2,15 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: normal;
     font-style: normal;
-    box-sizing: border-box;
     color: #777;
-}
-
-html, body {
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: black;
+}
+
 /**Estilos no menu****/
 .nav ul {
     margin: 0;    
@@ -46,7 +47,9 @@ html, body {
     background-image: url(../Imagens/dkback.jpg);
     background-blend-mode: multiply;
     background-size: cover;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
     padding-bottom:30px;
+    margin: 0 auto;
 }
 
 
@@ -68,12 +71,6 @@ html, body {
 
 /**---------------------------------------------------texto***/
     
-.site-back {
-    border-top: 1px solid ;
-    background-color: rgb(0, 0, 0);
-}
-
-/**---------------------------------------------------texto***/
     
 .fast-travel-title {
     color: wheat;
@@ -174,7 +171,7 @@ html, body {
     font-size: 3em;
 }
 
-
+/**-------------------------------border-fire--------------------***/
 .border-fire {
     display: block;
     text-align: center;
@@ -183,6 +180,12 @@ html, body {
 
 .border-fire-size {
     width: 1000px;
+    max-width: 100%;
+}
+
+
+.border-fire-sobre {
+    
 }
 
 /**---------------------------------------------------texto***/
@@ -203,6 +206,7 @@ html, body {
     background-size: cover;
     border-top: 1px solid;
     border-bottom: 1px solid;
+    
 }
 
 .container-footer {
@@ -248,46 +252,50 @@ html, body {
 .field-souls {
     border-style: double;
     border-color: rgb(199, 191, 182) ;
-    margin: 0 auto;
+    margin: 20px 30px 20px 30px;
     display: inline-block;
+    max-width: 100%;
+    width: 400px;
+    text-align: center;
+    
 }
 
 .field-souls legend {
       font-size: 1.7em;
       color: rgb(187, 183, 177);
       font-family: "Lucida Sans-serif";
+           
 }
 
-.container-souls {
-    font-size: 1.2em;
-    text-align: center;
-    padding-bottom: 30px;
-     
+.container-contatos {
+    margin-bottom: 2em;
 }
 
 
 .main-forms p {
     color: rgb(206, 182, 182);
-    text-align: justify;
+    text-align: left;
     font-family: "Lucida Sans-serif";
-    padding: 5px 1% 5px 1%;
+    padding: 8px 2% ;
 }
 
 .main-forms  {
     border-radius: 5px;
-    margin: 10px 1em 10px 1em;   
+    margin: 10px 1em 10px 1em;
+    text-align: center; 
+    font-size: 1.2em; 
+    display: inline-flexbox; 
 }
 
 
 .coment-area {
     border-radius: 5px;
-    border-color:  #777;
-    margin-top: 20px;
-    width: 40em;
-    height: 10em;
+    margin-top: 10px;
     background-color: rgb(41, 35, 35);
     color: rgb(255, 255, 255);
-    border-color: rgb(53, 52, 52);
+    border-color: rgb(53, 52, 52); 
+    width: 100%;
+    height:8em;
 }
 
 .input-name {
@@ -299,19 +307,22 @@ html, body {
 }
 
 .sabishi input {
+    display: inline-block;
     background-color: rgb(41, 35, 35);
     width: 20em;
     border-color: rgb(53, 52, 52);
     color: rgb(248, 236, 236);
+    
 }
     
-.sabishi .boco{
+.sabishi .btn{
     background-color: rgb(223, 213, 213);
     color: black;
     cursor: pointer;
     width: 80px;
     font-weight: lighter;
     border-radius: 5px;
+    max-width: 100%;
 }
 
 .boco:hover {
@@ -322,9 +333,15 @@ html, body {
 .section-image-souls {
     border-radius: 50%;
     width: 200px;
+    max-width: 100%;
+
     
 }
 
-.pocha { 
-    padding-right: 30px;
+.section-header-sobre {
+    margin:  1em  1em ;
+}
+
+.container-souls { 
+    text-align: center;
 }
