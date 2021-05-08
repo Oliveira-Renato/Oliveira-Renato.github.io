@@ -233,6 +233,11 @@ body {
     transform: scaleX(-1);
 }
 
+.footer-bonfire:hover{
+    transform: scale(1);
+    cursor: pointer; 
+}
+
 .footer-solaire {
     height: 90px;
     margin: auto;
@@ -247,28 +252,38 @@ body {
     padding-top: 10px;
 }
 
-/****-------------------forms------------------****/
-
-.field-souls {
-    border-style: double;
-    border-color: rgb(199, 191, 182) ;
-    margin: 20px 30px 20px 30px;
+/****-------------------sobre-mim------------------****/
+.container-contatos {
     display: inline-block;
-    max-width: 100%;
-    width: 400px;
-    text-align: center;
+    text-align: justify;
+    margin-left:  10%;
+    margin-right: 15%;
     
 }
 
+/****-------------------forms------------------****/
+.container-souls {
+    display: flexbox;
+    text-align: center;
+        
+}
+
+.field-souls {
+    display: inline-block;
+    border-color: rgb(199, 191, 182) ;
+    margin: 50px 20px;
+    width: 572px;
+    height: 472px;
+    background-image: url(imagens/contatos.jpg);
+    background-blend-mode: multiply;
+    background-color: rgba(14, 11, 11, 0.6);
+}
+
 .field-souls legend {
-      font-size: 1.7em;
+      font-size: 2em;
       color: rgb(187, 183, 177);
       font-family: "Lucida Sans-serif";
            
-}
-
-.container-contatos {
-    margin-bottom: 2em;
 }
 
 
@@ -276,16 +291,15 @@ body {
     color: rgb(206, 182, 182);
     text-align: left;
     font-family: "Lucida Sans-serif";
-    padding: 8px 2% ;
+    padding: 2%  2%;
 }
 
 .main-forms  {
     border-radius: 5px;
     margin: 10px 1em 10px 1em;
-    text-align: center; 
     font-size: 1.2em; 
-    display: inline-flexbox; 
 }
+
 
 
 .coment-area {
@@ -295,11 +309,11 @@ body {
     color: rgb(255, 255, 255);
     border-color: rgb(53, 52, 52); 
     width: 100%;
-    height:8em;
+    height:10em;
 }
 
 .input-name {
-    margin-left: 17gpx;
+    margin-left: 17px;
 }
 
 .input-email {
@@ -309,39 +323,53 @@ body {
 .sabishi input {
     display: inline-block;
     background-color: rgb(41, 35, 35);
-    width: 20em;
+    width: fit-content;
     border-color: rgb(53, 52, 52);
-    color: rgb(248, 236, 236);
-    
+    color: rgb(241, 237, 237);
+    font-size: 0.7em;  
 }
     
 .sabishi .btn{
-    background-color: rgb(223, 213, 213);
-    color: black;
+    background-color: rgb(223, 218, 213);
+    color: #333;
     cursor: pointer;
-    width: 80px;
-    font-weight: lighter;
-    border-radius: 5px;
-    max-width: 100%;
+    width: 60px;
+    height: auto;
+    font-weight: bolder;
+    border: none;
+    padding: 0;
 }
 
-.boco:hover {
-    background-color: #333;
-    color: white;
+.btn:hover {
+    background-color: rgba(51, 30, 3, 0.911);
+    color: rgb(228, 220, 220);
+    transform: scale(1.1);
 }
 
 .section-image-souls {
     border-radius: 50%;
     width: 200px;
-    max-width: 100%;
-
-    
+    max-width: 100%;   
 }
 
 .section-header-sobre {
     margin:  1em  1em ;
 }
 
-.container-souls { 
-    text-align: center;
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(48, 39, 39) inset;   
 }
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: rgb(233, 233, 243) !important;
+    font-size: .7em;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: rgb(233, 233, 243) !important;
+}
+
+
+
