@@ -267,9 +267,8 @@ body {
 }
 
 /****-------------------forms------------------****/
-.container-souls {
-    display: flexbox;
-    text-align: center;
+.container-souls {   
+text-align: center;
         
 }
 
@@ -281,7 +280,8 @@ body {
     height: 472px;
     background-image: url(imagens/contatos.jpg);
     background-blend-mode: multiply;
-    background-color: rgba(14, 11, 11, 0.6);
+    background-color: rgba(14, 11, 11, 0.5);
+    
 }
 
 .field-souls legend {
@@ -303,6 +303,7 @@ body {
     border-radius: 5px;
     margin: 10px 1em 10px 1em;
     font-size: 1.2em; 
+
 }
 
 
@@ -376,6 +377,4 @@ input:-webkit-autofill {
 input:-webkit-autofill {
     -webkit-text-fill-color: rgb(233, 233, 243) !important;
 }
-
-
 
