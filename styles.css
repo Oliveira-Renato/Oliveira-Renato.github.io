@@ -2,14 +2,15 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: normal;
     font-style: normal;
-    box-sizing: border-box;
     color: #777;
-}
-
-html, body {
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: black;
+}
+
 /**Estilos no menu****/
 .nav ul {
     margin: 0;    
@@ -46,7 +47,9 @@ html, body {
     background-image: url(../Imagens/dkback.jpg);
     background-blend-mode: multiply;
     background-size: cover;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
     padding-bottom:30px;
+    margin: 0 auto;
 }
 
 
@@ -68,12 +71,6 @@ html, body {
 
 /**---------------------------------------------------texto***/
     
-.site-back {
-    border-top: 1px solid ;
-    background-color: rgb(0, 0, 0);
-}
-
-/**---------------------------------------------------texto***/
     
 .fast-travel-title {
     color: wheat;
@@ -81,6 +78,7 @@ html, body {
     font-weight: lighter;
     font-size: 4em;
     padding-left: 1em;
+    margin-bottom:.7em;
      
 }
 
@@ -140,11 +138,15 @@ html, body {
     color: wheat;
     text-align: center;
     font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.section-header-title {
+    margin-top: 2em;
 }
 
 .section-text {
     color: wheat;
-
 }
 
 /**---------------------------------------------------texto***/
@@ -174,7 +176,7 @@ html, body {
     font-size: 3em;
 }
 
-
+/**-------------------------------border-fire--------------------***/
 .border-fire {
     display: block;
     text-align: center;
@@ -183,6 +185,12 @@ html, body {
 
 .border-fire-size {
     width: 1000px;
+    max-width: 100%;
+}
+
+
+.border-fire-sobre {
+    
 }
 
 /**---------------------------------------------------texto***/
@@ -203,6 +211,7 @@ html, body {
     background-size: cover;
     border-top: 1px solid;
     border-bottom: 1px solid;
+    
 }
 
 .container-footer {
@@ -229,6 +238,11 @@ html, body {
     transform: scaleX(-1);
 }
 
+.footer-bonfire:hover{
+    transform: scale(1);
+    cursor: pointer; 
+}
+
 .footer-solaire {
     height: 90px;
     margin: auto;
@@ -243,51 +257,64 @@ html, body {
     padding-top: 10px;
 }
 
+/****-------------------sobre-mim------------------****/
+.container-contatos {
+    display: inline-block;
+    text-align: justify;
+    margin-left:  10%;
+    margin-right: 15%;
+    
+}
+
 /****-------------------forms------------------****/
+.container-souls {
+    display: flexbox;
+    text-align: center;
+        
+}
 
 .field-souls {
-    border-style: double;
-    border-color: rgb(199, 191, 182) ;
-    margin: 0 auto;
     display: inline-block;
+    border-color: rgb(199, 191, 182) ;
+    margin: 50px 20px;
+    width: 572px;
+    height: 472px;
+    background-image: url(imagens/contatos.jpg);
+    background-blend-mode: multiply;
+    background-color: rgba(14, 11, 11, 0.6);
 }
 
 .field-souls legend {
-      font-size: 1.7em;
+      font-size: 2em;
       color: rgb(187, 183, 177);
       font-family: "Lucida Sans-serif";
-}
-
-.container-souls {
-    font-size: 1.2em;
-    text-align: center;
-    padding-bottom: 30px;
-     
+           
 }
 
 
 .main-forms p {
     color: rgb(206, 182, 182);
-    text-align: justify;
+    text-align: left;
     font-family: "Lucida Sans-serif";
-    padding: 5px 1% 5px 1%;
+    padding: 2%  2%;
 }
 
 .main-forms  {
     border-radius: 5px;
-    margin: 10px 1em 10px 1em;   
+    margin: 10px 1em 10px 1em;
+    font-size: 1.2em; 
 }
+
 
 
 .coment-area {
     border-radius: 5px;
-    border-color:  #777;
-    margin-top: 20px;
-    width: 40em;
-    height: 10em;
+    margin-top: 10px;
     background-color: rgb(41, 35, 35);
     color: rgb(255, 255, 255);
-    border-color: rgb(53, 52, 52);
+    border-color: rgb(53, 52, 52); 
+    width: 100%;
+    height:10em;
 }
 
 .input-name {
@@ -299,32 +326,55 @@ html, body {
 }
 
 .sabishi input {
+    display: inline-block;
     background-color: rgb(41, 35, 35);
-    width: 20em;
+    width: fit-content;
     border-color: rgb(53, 52, 52);
-    color: rgb(248, 236, 236);
+    color: rgb(241, 237, 237);
+    font-size: 0.7em;  
 }
     
-.sabishi .boco{
-    background-color: rgb(223, 213, 213);
-    color: black;
+.sabishi .btn{
+    background-color: rgb(223, 218, 213);
+    color: #333;
     cursor: pointer;
-    width: 80px;
-    font-weight: lighter;
-    border-radius: 5px;
+    width: 60px;
+    height: auto;
+    font-weight: bolder;
+    border: none;
+    padding: 0;
 }
 
-.boco:hover {
-    background-color: #333;
-    color: white;
+.btn:hover {
+    background-color: rgba(51, 30, 3, 0.911);
+    color: rgb(228, 220, 220);
+    transform: scale(1.1);
 }
 
 .section-image-souls {
     border-radius: 50%;
     width: 200px;
-    
+    max-width: 100%;   
 }
 
-.pocha { 
-    padding-right: 30px;
+.section-header-sobre {
+    margin:  1em  1em ;
 }
+
+/* Cor de fundo do autocomplete */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(48, 39, 39) inset;   
+}
+
+/* Cor do texto do autocomplete */
+input:-webkit-autofill {
+    -webkit-text-fill-color: rgb(233, 233, 243) !important;
+    font-size: .7em;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: rgb(233, 233, 243) !important;
+}
+
+
+

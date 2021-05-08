@@ -46,13 +46,16 @@ html, body {
     background-image: url(../Imagens/dkback.jpg);
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px;
+    
+}
+
+.main-header img {
     
 }
 
 .title-name {
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'Lucida Sans';
     color: white;
     font-size: 7em;
