@@ -78,6 +78,7 @@ body {
     font-weight: lighter;
     font-size: 4em;
     padding-left: 1em;
+    margin-bottom:.7em;
      
 }
 
@@ -137,11 +138,15 @@ body {
     color: wheat;
     text-align: center;
     font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.section-header-title {
+    margin-top: 2em;
 }
 
 .section-text {
     color: wheat;
-
 }
 
 /**---------------------------------------------------texto***/
