@@ -280,6 +280,7 @@ body {
     width: 572px;
     height: 472px;
     background-image: url(imagens/contatos.jpg);
+    background-size: cover;
     background-blend-mode: multiply;
     background-color: rgba(14, 11, 11, 0.6);
 }
