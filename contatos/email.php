@@ -10,12 +10,12 @@ $mensagem = addslashes($_POST['mensagem']);
 
 $to =  "renato.printf@gmail.com";
 $subject = "Contato - My Soul Site ";
-$body = "Nome: ".$nome. "\n"
-        "Email: ".$email. "\n"
-        "Assunto: ".$assunto. "\n"
+$body = "Nome: ".$nome. "\n".
+        "Email: ".$email. "\n".
+        "Assunto: ".$assunto. "\n".
         "Mensagem: ".$mensagem;
 
-$header = "From: renato.troll@gemail.com"."\r\n" ."Reply-To:".$email. "\r\n" ."X=mailer:PHP/".phpversion();
+$header = "From: renato.troll@gemail.com"."\r\n". "Reply-To:".$email. "\r\n". "X=Mailer:PHP/".phpversion();
 
 if(mail($to,$subject,$body,$header)){
 
@@ -23,7 +23,7 @@ if(mail($to,$subject,$body,$header)){
 
 }else{
     
-    echo(" Email não pode ser enviado");
+    echo("O Email não pode ser enviado");
 
 }
 
