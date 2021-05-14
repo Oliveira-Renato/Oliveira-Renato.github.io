@@ -43,12 +43,16 @@
                 
                 <legend class="main-details">Entre em contato</legend>
                     <div class="sabishi">
-                        <form class="main-forms" action="email.php" method="POST">
+                        <form class="main-forms" action="enviar.php" method="POST">
                             
-                                <p>  Nome <input class="input-name" type="text" name="nome" placeholder="digite seu nome..."></p>
-                                <p> E-mail <input class="input-email" type="text" name="email" placeholder="digite seu e-mail aqui..."></p>
-                                <p> Assunto <input class="assunto" type="text" name="assunto" placeholder="digite o assunto aqui..."> </p>
-                                <p>Mensagem <br> <textarea class="coment-area" name="mensagem"  placeholder="Digite aqui..."></textarea></p>
+                                <label><p>Nome</label> 
+                                    <input class="input-name" type="text" name="nome" placeholder="Seu nome"></p>
+                                <label><p> Email* </label> 
+                                    <input class="input-email" type="text" name="email" placeholder="digite seu e-mail aqui..."></p>
+                                <label><p> Assunto </label> 
+                                    <input class="assunto" type="text" name="assunto" placeholder="digite o assunto aqui..."> </p>
+                                <label><p>Mensagem* </label><br> 
+                                    <textarea class="coment-area" name="mensagem"  placeholder="Digite aqui..."></textarea></p>
                                 <input class="btn" type="submit"  value="Enviar">
                             
                         </form>
